@@ -18,6 +18,10 @@ html, body {
     border-radius: 50%;
     
 }
+
+.drop-shadow {
+    text-shadow: 3px 2px 3px #000;
+}
 #home-container {
   display: grid;  
   grid-template-rows: 1fr 1fr;
@@ -57,7 +61,8 @@ html, body {
     color: white;
     text-decoration: none;
     padding: 15px 1em;
-    font-size: 1.35em;
+    text-shadow: 3px 2px 3px #000;
+   
 }
 
 .home-main-nav > ul> li:first-child {
